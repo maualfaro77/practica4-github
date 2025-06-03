@@ -8,11 +8,11 @@
 <body>
     <header class="header">
         <div class="logo">TechHealth</div>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+        <nav class="nav" aria-label="Navegación principal">
+            <ul class="nav-list" role="menu">
+                <li role="none"><a role="menuitem" href="#inicio">Inicio</a></li>
+                <li role="none"><a role="menuitem" href="#servicios">Servicios</a></li>
+                <li role="none"><a role="menuitem" href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -22,7 +22,7 @@
         <section id="inicio" class="banner"><div class="banner-content">
     <!-- Contenido se agregará luego -->
 </div></section>
-        <section id="servicios" class="services"><div class="services-grid">
+        <section id="servicios" class="services" aria-labelledby="titulo-servicios"><h2 id="titulo-servicios">Servicios</h2><div class="services-grid">
     <!-- Cards de servicios se agregarán luego -->
 </div></section>
         <section id="contacto" class="contact"><div class="contact-form">
