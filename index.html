@@ -44,6 +44,20 @@
                     <label for="email">Correo electrónico:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <select id="asunto" name="asunto" required>
+                    <option value="" disabled selected>Seleccione...</option>
+                    <option value="soporte">Soporte técnico</option>
+                    <option value="ventas">Consultas comerciales</option>
+                    <option value="emergencia">Emergencia médica</option>
+        </select>
+    </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
             </form>
         </div></section>
     </main>
