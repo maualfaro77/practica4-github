@@ -137,37 +137,3 @@ body {
 .submit-btn:hover {
   background-color: var(--primary-dark);
 }
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 2rem;
-  margin-top: 3rem;
-  background-color: white;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .header {
-    flex-direction: column;
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  .nav-list {
-    gap: 1rem;
-  }
-
-  .contact-form {
-    padding: 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .form-group input,
-  .form-group select,
-  .form-group textarea {
-    padding: 0.5rem;
-  }
-}
